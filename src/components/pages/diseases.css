@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #334443;
+}
+
+
+/* currousal css */
+
+.currtext {
+    background-color: rgba(219, 219, 219, 0.829);
+    color: rgb(0, 0, 0);
+}
+
+.currtext p h5 a h6 {
+    text-transform: uppercase;
+}
+
+.carousel-item img {
+    height: 9%;
+}
+
+.team_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #35f897b7;
+    margin-top: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.team_section h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+
+.card_container {
+    width: 400px;
+    height: auto;
+    margin: 15px;
+    padding: 40px 0;
+    background-color: #8ff386;
+    justify-content: center;
+    box-shadow: 0 2px 10px #3f2352;
+    text-align: center;
+}
+
+.card_container img {
+    position: relative;
+    width: 300px;
+    height: auto;
+    margin: 0, auto;
+    left: 50px;
+}
+
+.card_container img,
+h2,
+p,
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.918)
+}
+
+.text_section {
+    margin-top: 40px;
+    font-weight: 400;
+    /* text-transform: uppercase;  */
+    letter-spacing: 2px;
+    color: rgb(192, 52, 52);
+}
+
+.card_container img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    box-shadow: 0 2px 10px #9e2bd3;
+    ;
+}
+
+.btnbg {
+    background-color: #303536;
+}
+
+
+/* special section */
+
+.card img {
+    margin-top: 10px;
+    width: 450px;
+    height: auto;
+    align-items: center;
+    padding: 4px;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    overflow: hidden;
+    box-shadow: 0 2px 10px #818181;
+    ;
+}
+
+.card-body {
+    justify-content: center;
+    text-align: center;
+}
+
+.card-body h5 {
+    /* text-transform: uppercase;
+    font-weight: 600; */
+    justify-content: center;
+}
+
+hr.new5 {
+    border: 5px solid white;
+    border-radius: 2px;
+}

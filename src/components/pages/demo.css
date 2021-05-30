@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body1 {}
+
+.bg-image {
+    /* The image used */
+    /* background-image: url("bg.jpg"); */
+    background-image: url("bg3.jpg");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Position text in the middle of the page/image */
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.3);
+    /* Black w/opacity/see-through */
+    box-shadow: 2px 1px 4px black, 0 0 30px black, 0 0 10px black;
+    color: white;
+    font-weight: bold;
+    border: 5px transparent #f1f1f1;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.location,
+.temperature {
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    /* font-family: 'Abel', sans-serif; */
+    /* animation-name: introduction;
+    animation-duration: 2s; */
+}
+
+.location-city {
+    font-size: 20px;
+    font-style: initial;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.location-timezone {
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+.location-icon {
+    position: relative;
+    left: 50px;
+    width: 300px;
+    height: 128px;
+}
+
+.location-icon img {
+    position: relative;
+    display: block;
+    margin: auto;
+    align-items: center;
+}
+
+.temperature {
+    flex-direction: column;
+}
+
+.temperature-description {
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.degree-section {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    align-items: center;
+}
+
+.degree-section span {
+    margin: 10px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.degree-section p {
+    margin: 5px;
+    font-size: 40px;
+    align-items: center;
+}
+
+.degree-section h2 {
+    font-size: 60px;
+    align-items: center;
+}
