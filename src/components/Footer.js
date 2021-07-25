@@ -35,17 +35,17 @@ function Footer() {
         <
         div class = 'footer-link-items' >
         <
-        h2 > About Us < /h2> <
+        h2 > Developed By < /h2> <
         Link to = '/sign-up' > < /Link> <
-        Link to = '/' > Ankush Bhalerao < /Link> <
-        Link to = '/' > Shalaka Alkute < /Link> <
-        Link to = '/' > Priyanka Bagave < /Link> <
-        Link to = '/' > Manaswi Asalkar < /Link> < /
+        Link to = '/' > Mast.Ankush Bhalerao < /Link> <
+        Link to = '/' > < /Link> <
+        Link to = '/' > < /Link> <
+        Link to = '/' > < /Link> < /
         div > <
         div class = 'footer-link-items' >
         <
         h2 > Contact Us < /h2>  <
-        Link to = '/' > agroguide166 @gmail.com < /Link><p>(This works pal!! Send us your feedback :))</p > < /
+        Link to = '/' > ankush.bhaleraog @gmail.com < /Link><p>(This works pal!! Send your feedback :))</p > < /
         div > <
         /div> <
         div className = 'footer-link-wrapper' >
