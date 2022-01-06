@@ -38,9 +38,9 @@ function Footer() {
         h2 > Developed By < /h2> <
         Link to = '/sign-up' > < /Link> <
         Link to = '/' > Mast.Ankush Bhalerao < /Link> <
-        Link to = '/' > < /Link> <
-        Link to = '/' > < /Link> <
-        Link to = '/' > < /Link> < /
+        Link to = '/' > Miss.Manaswi Asalkar < /Link> <
+        Link to = '/' > Miss.Priyanka Bagave < /Link> <
+        Link to = '/' > Miss.Shalaka Alkute < /Link> < /
         div > <
         div class = 'footer-link-items' >
         <
